@@ -1,0 +1,33 @@
+STYLE THE LINKS IN HEADER/FOOTER
+
+---Home Page---
+Blurb about Salon -waiting
+Add photos -waiting
+resolution for main img -waiting/ask?
+
+---Services---
+Add photos possible of techniques - can grab? should get photos approved
+
+---About Us---
+Need to rework how text is laid out -ask kow
+links to personal information
+
+---Contact Us---
+google map add on - need key information
+email - waiting
+https://www.w3schools.com/graphics/google_maps_intro.asp?fbclid=IwAR0hvpwb7nNuLCUyQXQv6s661qHalZ-mHwbTAAM9AfZjUpuN76jk3mcJ9VA
+possibly make text bot to automatically send an email to their addresss 
+
+---header---
+Change the logo - waiting
+
+---footer---
+email address - waiting
+
+---Services---
+background change of the different pricing options
+
+
+---Styling---
+work on capsule
+have it not scream cs365 project

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Services</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--BootStrap link-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script src="jquery-3.3.1.js"></script>
+    <script src="serviceScreen.js"></script>
+    <script>$(function(){$("#header").load("header.html");});</script>
+    <script>$(function(){$("#footer").load("footer.html");});</script>
+</head>
+<body>
+    <div id="capsule">
+        <div id="header">
+        </div>
+
+        <div id="miniScreen">
+                <button class="servicesButton" id="haircutButton">Haircuts and Color</button>
+                <p class="between"> | </p>
+                <button class="servicesButton" id="stylingButton">Styling</button>
+                <p class="between"> | </p>
+                <button class="servicesButton" id="waxingButton">Waxing</button>
+                <p class="between"> | </p>
+                <button class="servicesButton" id="otherButton">Other Services</button>
+        </div>
+
+        <div class="screens" id="haircutScreen">
+            <p class="titleName">Haircuts</p>
+            <p>Adults $25-$40 <br> Children $5-$15</p>
+            <p class="titleName">Color</p>
+            <p>Full Color $80-$85 <br> Highlights $50-$90 <br> Creative Coloring $100+ </p>
+            
+        </div>
+
+        <div class="screens" id="stylingScreen">
+            <p>Brazilian Blowout $200 <br> Split End Treatment $45 <br> Hair Extentions $175</p>
+        </div>
+
+        <div class="screens" id="waxingScreen">
+            <p>Eyebrows $12-$15 <br> Chin $8-$10 <br> Lip $8-$10</p>
+        </div>
+
+        <div class="screens" id="otherScreen">
+            <p>Conditiong and Dry Scalp Treatments $35-$45 <br>
+                NovaLash Eyelash Extentions $36-$90 <br> Special Occasion Services Available</p>
+            </div>
+
+        <div id="footer">
+        </div>
+    </div>
+</body>
+</html>
