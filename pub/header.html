@@ -7,21 +7,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--BootStrap link-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/margins.css" />
-    <script src="main.js"></script>
-    <!--<script>$(function(){#header.load("header.html");});</script>-->
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
 </head>
+
 <body>
-    <div id="logoDiv">
-        <a href="index.html">
-            <img id="logo" srcset="./img/logoSmall.png 376W, ./img/logo.png 470W, ./img/logoLarge.png 705W" sizes="(max-width:376px) 346px, 
-            (max-width: 470px) 440px, 705px" src="img/logo.png" alt="logo">
-        </a>
-        
-        <!--Three links below the horizontal divider inline-->
-        <a class="linkClass" href="services.html">Services</a>
-        <a class="linkClass" href="aboutus.html">About Us</a>
-        <a class="linkClass" href="contactus.html">Contact Us</a>
+    <div class="container col-12" id="logoDiv">
+        <div class="row">
+            <a class="centerMargin" href="index.html">
+                <img id="logo" src="img/salonlogo.png" alt="Opalus">
+            </a>
+        </div>
+
+        <div class="row">
+            <nav class="navbar navbar-expand centerMargin">
+                <div class="font2 tMargin-10 largerFont" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link text-dark" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="contactus.html">Contact Us</a>
+                    </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
         <hr>
     </div>
 </body>

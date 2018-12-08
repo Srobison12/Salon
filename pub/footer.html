@@ -7,27 +7,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--BootStrap link-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-    <link rel="stylesheet" type="text/css" media="screen" href="css/margins.css" />
-    <script src="main.js"></script>
-    <!--<script>$(function(){#header.load("header.html");});</script>-->
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
 </head>
+
 <body>
-    <div id="logoDiv">
+    <div class="container" id="logoDiv">
         <hr>
-        <!--Three links below the horizontal divider inline-->
-        <a class="linkClass" href="services.html">Services</a>
-        <a class="linkClass" href="aboutus.html">About Us</a>
-        <a class="linkClass" href="contactus.html">Contact Us</a>
-        <div id="bottom">
-            <p id="hours">Hours: <br> Monday-Friday 10am-7pm <br> Saturday 11am-5pm <br> Sunday by-appointment</p>
-            <p id="contacts">Phone: (906)-273-2526<br>E-mail: XXX@XXX.com<br>Address: 505 N. Third St.<br>Marquette, MI 49855</p>
+        <div class="row">
+            <nav class="navbar navbar-expand centerMargin">
+                <div class="font2 bMargin-10 largerFont" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link text-dark" href="index.html">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="contactus.html">Contact Us</a>
+                    </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
-        <div id="booking">
-            <button id="bookingButton">Book Now!</button>
+        <div class="row" id="bottom">
+            <div class="col-sm-4 font1">
+                <p id="hours">Hours: <br> Monday-Friday: 10am-7pm <br> Saturday: 11am-5pm <br> Sunday: by-appointment</p>
+            </div>
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4 font1">
+                <p id="contacts">Phone: (906)-273-2526<br>E-mail: XXX@XXX.com<br>Address: 505 N. Third St.<br>Marquette, MI 49855</p>
+            </div>
+        </div>
+        <div class="row col-sm-12" id="booking">
+            <button type="button" class= "btn btn-dark centerMargin" id="bookingButton">Book Now!</button>
             <script type="text/javascript">
                 document.getElementById("booking").onclick = function(){
-                    location.href = "https://www.vagaro.com/opalussalon";  
+                    window.open("https://www.vagaro.com/opalussalon", "_blank");
                 };
             </script>
         </div>

@@ -1,0 +1,89 @@
+.darkerBack {
+    background-color: rgba(150,135,145,.8);
+}
+
+.backColor{
+    background-color: rgba(255, 228, 196,.8);
+}
+
+.backImage{
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.centerText {
+    text-align: center !important;
+}
+
+.centerMargin {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.tbMargin-20 {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important; 
+}
+
+.tMargin-10 {
+    margin-top: 10px !important;
+}
+
+.bMargin-10 {
+    margin-bottom: 10px !important
+}
+
+.bMargin-45 {
+    margin-bottom: 45px !important
+}
+
+.capsulePadding {
+    padding: 40px;
+}
+
+.bodyPadding {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#contacts{
+    text-align: right !important;
+}
+
+#logo {
+    max-width: 100%;
+}
+
+.font1 {
+    font-family: 'Source Sans Pro';
+}
+
+.font2 {
+    font-family: 'Spinnaker';
+}
+
+.largeFont {
+    font-size: large;
+}
+
+.largerFont {
+    font-size: larger;
+}
+
+hr {
+    border: 1px solid rgba(30,30,30,.90);
+    border-radius: 5px;
+}
+
+.personalPic {
+    border-radius: 50%;
+}
+
+.inline {
+    display: inline-table;
+}
+
+.widthSet {
+    max-width: 10%;
+}
